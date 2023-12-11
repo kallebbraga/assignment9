@@ -1,0 +1,51 @@
+/* Selectors */
+h1 {
+    color: #3498db;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Class Selector */
+.section-title {
+    font-weight: bold;
+}
+
+/* ID Selector */
+#footer-link {
+    color: #2ecc71;
+}
+
+/* Attribute Selector */
+[rel="stylesheet"] {
+    border: 1px solid #e74c3c;
+}
+
+/* Combinatorial Selectors */
+header p {
+    font-style: italic;
+}
+
+/* Child Selector */
+section > p {
+    text-decoration: underline;
+}
+
+/* Descendant Selector */
+footer a {
+    font-weight: bold;
+}
+
+/* Advanced Pseudo-classes */
+a:hover {
+    color: #e67e22;
+}
+
+p:nth-child(odd) {
+    background-color: #ecf0f1;
+}
+
+p:not(.section-title) {
+    color: #7f8c8d;
+}
